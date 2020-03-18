@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sahar-bitton-09-03-2020/static/css/main.08f2223c.chunk.css",
+    "main.js": "/sahar-bitton-09-03-2020/static/js/main.5d3fa57a.chunk.js",
+    "main.js.map": "/sahar-bitton-09-03-2020/static/js/main.5d3fa57a.chunk.js.map",
+    "runtime-main.js": "/sahar-bitton-09-03-2020/static/js/runtime-main.a4e10097.js",
+    "runtime-main.js.map": "/sahar-bitton-09-03-2020/static/js/runtime-main.a4e10097.js.map",
+    "static/css/2.d3b247d0.chunk.css": "/sahar-bitton-09-03-2020/static/css/2.d3b247d0.chunk.css",
+    "static/js/2.3f26e8eb.chunk.js": "/sahar-bitton-09-03-2020/static/js/2.3f26e8eb.chunk.js",
+    "static/js/2.3f26e8eb.chunk.js.map": "/sahar-bitton-09-03-2020/static/js/2.3f26e8eb.chunk.js.map",
+    "index.html": "/sahar-bitton-09-03-2020/index.html",
+    "precache-manifest.e30bbd71a876944a5c8a585a325b638a.js": "/sahar-bitton-09-03-2020/precache-manifest.e30bbd71a876944a5c8a585a325b638a.js",
+    "service-worker.js": "/sahar-bitton-09-03-2020/service-worker.js",
+    "static/css/2.d3b247d0.chunk.css.map": "/sahar-bitton-09-03-2020/static/css/2.d3b247d0.chunk.css.map",
+    "static/css/main.08f2223c.chunk.css.map": "/sahar-bitton-09-03-2020/static/css/main.08f2223c.chunk.css.map",
+    "static/js/2.3f26e8eb.chunk.js.LICENSE.txt": "/sahar-bitton-09-03-2020/static/js/2.3f26e8eb.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/sahar-bitton-09-03-2020/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4e10097.js",
+    "static/css/2.d3b247d0.chunk.css",
+    "static/js/2.3f26e8eb.chunk.js",
+    "static/css/main.08f2223c.chunk.css",
+    "static/js/main.5d3fa57a.chunk.js"
+  ]
+}
