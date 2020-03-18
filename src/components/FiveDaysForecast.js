@@ -83,7 +83,7 @@ export default class FiveDaysForecast extends Component {
             selectedKey: this.props.selectedKey
         }))
         const newKey = this.props.selectedKey;
-        const url = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${newKey}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&metric=true`;
+        const url = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${newKey}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&metric=true`;
         const api_call = await fetch(url);
         const data = await api_call.json();
         const thisDate = data.DailyForecasts[0].Date;
@@ -133,7 +133,7 @@ export default class FiveDaysForecast extends Component {
       }
 
       async componentDidMount(){
-    const url = `http://dataservice.accuweather.com/forecasts/v1/daily/5day/215854?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&metric=true`;
+    const url = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/215854?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&metric=true`;
     const api_call = await fetch(url);
     const data = await api_call.json();
     const thisDate = data.DailyForecasts[0].Date;

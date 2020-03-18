@@ -20,7 +20,7 @@ constructor(props) {
       }))
       const locName = this.props.selectedLoc;
       const keyNum = this.props.selectedKey;
-        const url = `http://dataservice.accuweather.com/currentconditions/v1/${keyNum}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=${locName}`;
+        const url = `https://dataservice.accuweather.com/currentconditions/v1/${keyNum}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=${locName}`;
     const api_call = await fetch(url);
     const data = await api_call.json();
     const w = data[0].WeatherIcon;
@@ -45,7 +45,7 @@ constructor(props) {
   
 
    async componentDidMount() {
-    const url = `http://dataservice.accuweather.com/currentconditions/v1/215854?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=Tel%20Aviv`;
+    const url = `https://dataservice.accuweather.com/currentconditions/v1/215854?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=Tel%20Aviv`;
     const api_call = await fetch(url);
     const data = await api_call.json();
 

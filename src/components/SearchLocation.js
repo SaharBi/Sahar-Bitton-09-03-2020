@@ -28,7 +28,7 @@ export default class SearchLocation extends React.Component{
         let suggestions = [];
         let keysArr = [];
         if(value.length > 0){
-            const url = `http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&q=${value}`;
+            const url = `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&q=${value}`;
             const api_call = await fetch(url);
             const data = await api_call.json();
          data.forEach(function(i){

@@ -48,7 +48,7 @@ export default class Favorites extends Component {
             }))
         } else {
              if (this.state.fav1.loc !== ""){
-                const url = `http://dataservice.accuweather.com/currentconditions/v1/${this.state.fav1.key}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=${this.state.fav1.loc}`;
+                const url = `https://dataservice.accuweather.com/currentconditions/v1/${this.state.fav1.key}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=${this.state.fav1.loc}`;
                 const api_call = await fetch(url);
                 const data = await api_call.json();
                 const w = data[0].WeatherIcon;
@@ -63,7 +63,7 @@ export default class Favorites extends Component {
             }))
             }
             } if (this.state.fav2.loc !== ""){
-                const url = `http://dataservice.accuweather.com/currentconditions/v1/${this.state.fav2.key}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=${this.state.fav2.loc}`;
+                const url = `https://dataservice.accuweather.com/currentconditions/v1/${this.state.fav2.key}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=${this.state.fav2.loc}`;
                 const api_call = await fetch(url);
                 const data = await api_call.json();
                 const w = data[0].WeatherIcon;
@@ -78,7 +78,7 @@ export default class Favorites extends Component {
             }))
             }
             } if (this.state.fav3.loc !== ""){
-                const url = `http://dataservice.accuweather.com/currentconditions/v1/${this.state.fav3.key}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=${this.state.fav3.loc}`;
+                const url = `https://dataservice.accuweather.com/currentconditions/v1/${this.state.fav3.key}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=${this.state.fav3.loc}`;
                 const api_call = await fetch(url);
                 const data = await api_call.json();
                 const w = data[0].WeatherIcon;
@@ -93,7 +93,7 @@ export default class Favorites extends Component {
             }))
             }
             } if (this.state.fav4.loc !== ""){
-                const url = `http://dataservice.accuweather.com/currentconditions/v1/${this.state.fav4.key}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=${this.state.fav4.loc}`;
+                const url = `https://dataservice.accuweather.com/currentconditions/v1/${this.state.fav4.key}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=${this.state.fav4.loc}`;
                 const api_call = await fetch(url);
                 const data = await api_call.json();
                 const w = data[0].WeatherIcon;
@@ -108,7 +108,7 @@ export default class Favorites extends Component {
             }))
             }
             } if (this.state.fav5.loc !== ""){
-                const url = `http://dataservice.accuweather.com/currentconditions/v1/${this.state.fav5.key}?apikey=jo62kbkIb69wcPvZiAIEctLE0xys9oh7&details=${this.state.fav5.loc}`;
+                const url = `https://dataservice.accuweather.com/currentconditions/v1/${this.state.fav5.key}?apikey=lh3Nb8d2Q2yX2UTz0aZLRw7OYuleQc1f&details=${this.state.fav5.loc}`;
                 const api_call = await fetch(url);
                 const data = await api_call.json();
                 const w = data[0].WeatherIcon;
